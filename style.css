@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-img {
+    /* background-color: rgb(84, 81, 81); */
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+    gap: 20px;
+    background-image: url('/images/BG\ IMAGE.jpeg');
+    background-repeat:no-repeat;
+    /* background-attachment: fixed; */
+    background-size: 100% 98%;
+    filter:contrast(2)
+    margin: 0 auto;
+}
